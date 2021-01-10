@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Partidas</title>
+</head>
+<body>
+    <!-- Geral -->
+    <div id="geral">
+        <!-- Cabeçalho -->
+        <div id="topo">
+            <input type="checkbox" id="check">
+            <label for="check"> <img src="https://assets.stickpng.com/thumbs/588a64f5d06f6719692a2d13.png"></label>
+            <nav>
+                <ul>
+                    <li><a href="historia.html">HomePage</a></li>
+                    <li><a href="jogadores.html">Times</a></li>
+                    <li><a href="noticias.html">Futebol</a></li>
+                </ul>
+            </nav>
+    </div>
+    <h1>
+        <h2><a>
+        ■   Copa Libertadores 2020
+        São Paulo x Dep. Binacional-PER
+        Data: 20/10/2020
+        Estádio: Morumbi - São Paulo
+        Horário: 21h30
+        </a></h2>
+        <h2><a><br/>
+        ■   Campeonato Brasileiro 2020
+        Coritiba x São Paulo
+        Data: 04/10/2020
+        Estádio: Couto Pereira - Curitiba (PR)
+        Horário: 16h00
+        </a></h2>
+        <h2><a> <br/>
+        ■   Campeonato Brasileiro 2020
+        São Paulo x Atlético-GO
+        Data: 07/10/2020
+        Estádio: Morumbi - São Paulo (SP)
+        Horário: 20h30
+        </a></h2>
+        <h2><a><br/>
+        ■   Campeonato Brasileiro 2020
+        Palmeiras x São Paulo
+        Data: 10/10/2020
+        Estádio: Allianz Parque - São Paulo (SP)
+        Horário: 19h00
+        </a></h2>
+        <h2><a><br/>
+        ■   Campeonato Brasileiro 2020
+        São Paulo x Grêmio
+        Data: 17/10/2020
+        Estádio: Morumbi - São Paulo (SP)
+        Horário: 21h00
+        </a></h2>
+        <h2><a><br/>
+        ■   Copa do Brasil 2020
+        Fortaleza x São Paulo
+        Data: 14/10/2020
+        Estádio: Castelão - Fortaleza (CE)
+        Horário: 19h15
+        </a></h2>
+        <h2><a><br/>
+        ■   Copa do Brasil 2020
+        São Paulo x Fortaleza
+        Data: 25/10/2020
+        Estádio: Morumbi - São Paulo (SP)
+        Horário: 20h30
+        </a></h2>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+            
+            body{
+
+                height: 900px;
+                background-image: url("https://i.pinimg.com/originals/73/e3/fe/73e3fe9fa7ea302c3d6ba4f430ffdf5c.jpg");
+                background-size: 100%;
+                background-color: rgba(16,16,16,0.5);
+            }
+            
+            #geral{
+                width: 100%;
+                height: 100%;
+            }
+            
+            #topo{
+                width: 100%;
+                height: 20%;
+            }
+            
+            #lado{
+                width: 10%;
+                height: 60%;
+      
+            }
+            
+            #baixo{
+                width: 100%;
+                height: 20%;
+                
+            }
+            
+            a{
+                text-decoration: none;
+                color: white;
+                display: block; 
+                padding: 20px 5px;
+                text-align: center;
+            }
+            a:hover{
+                background-color: rgb(176,224,230);
+                color: black;
+            }
+            
+            
+            ul{
+                list-style: none;  
+                top: 70px;
+                position: absolute;
+                width: 100%;
+            }
+            
+            img{
+                width: 40px;
+            }
+            
+            input[type="checkbox"]{
+                display: none;
+            }
+            
+            input[type="checkbox"]:checked ~ nav{
+                transform: translateX(350px);
+            }
+            
+            nav{
+                background-color: rgba(16,16,16,0.5);
+                width: 300px;
+                position: absolute;
+                height: 100%;
+                left: -350px;
+                transition: all 1s;
+            }
+            
+            label{
+                padding: 15px;
+                position: absolute;
+                z-index: 1;
+            }
+            
+            h1{
+                color:grey;
+                text-align: center;
+            }
+            h2{
+                color:grey;
+                text-align: center;
+                margin-left: 15%;
+            }
+            
+            
+        </style>
+
+    </h1>
+</body>
+</html>
